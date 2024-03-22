@@ -7,14 +7,31 @@
     tools:context=".NextActivity">
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/text_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="24dp"
         android:gravity="center"
-        android:text="IGE day Part 2"
+        android:text="Pris: 2000 kr"
+        android:textColor="@color/blocket_red"
         android:textSize="48sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_marginTop="14dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Plus" />
+
+    <Button
+        android:id="@+id/button_minus"
+        android:layout_margin="14dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Minus" />
 
 </LinearLayout>
